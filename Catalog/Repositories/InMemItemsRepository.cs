@@ -25,5 +25,11 @@ namespace Catalog.Repositories
         {
             items.Add(item);
         }
+
+        public void UpdateItem(Item item)
+        {
+            var index = items.FindIndex(existingItem => existingItem.Id.Equals(item.Id));
+            items[index] = item;
+        }
     }
 }
