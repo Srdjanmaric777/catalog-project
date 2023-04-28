@@ -19,17 +19,19 @@ namespace Catalog.Controllers
         [HttpGet]
         public IEnumerable<ItemDto> GetItems()
         {
-            var items = repository.GetItems().Select(item => item.AsDto());
+            IEnumerable<ItemDto> items = repository.GetItems().Select(item => item.AsDto());
             return items;
         }
 
         [HttpGet("{id}")]
         public ActionResult<ItemDto> GetItem(Guid id)
         {
-            var item = repository.GetItem(id);
+            Item item = repository.GetItem(id);
 
             if (item is null)
+            {
                 return NotFound();
+            }
 
             return item.AsDto();
         }
@@ -52,7 +54,7 @@ namespace Catalog.Controllers
         [HttpPut("{id}")]
         public ActionResult UpdateItem(Guid id, UpdateItemDto itemDto)
         {
-            var existingItem = repository.GetItem(id);
+            Item existingItem = repository.GetItem(id);
 
             if (existingItem == null)
             {
@@ -73,7 +75,7 @@ namespace Catalog.Controllers
         [HttpDelete("{id}")]
         public ActionResult DeleteItem(Guid id)
         {
-            var existingItem = repository.GetItem(id);
+            Item existingItem = repository.GetItem(id);
 
             if(existingItem == null)
             {
