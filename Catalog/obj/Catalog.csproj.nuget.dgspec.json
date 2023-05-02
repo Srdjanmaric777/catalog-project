@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S\\Desktop\\Projects\\12Catalog_Project\\catalog-project\\Catalog\\Catalog.csproj": {}
+    "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\Catalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S\\Desktop\\Projects\\12Catalog_Project\\catalog-project\\Catalog\\Catalog.csproj": {
+    "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S\\Desktop\\Projects\\12Catalog_Project\\catalog-project\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "C:\\Users\\S\\Desktop\\Projects\\12Catalog_Project\\catalog-project\\Catalog\\Catalog.csproj",
-        "packagesPath": "C:\\Users\\S\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S\\Desktop\\Projects\\12Catalog_Project\\catalog-project\\Catalog\\obj\\",
+        "projectPath": "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\Catalog.csproj",
+        "packagesPath": "C:\\Users\\Srdja\\.nuget\\packages\\",
+        "outputPath": "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Srdja\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
