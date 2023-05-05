@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\build.proj": {}
+  },
+  "projects": {
+    "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\build.proj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\build.proj",
+        "projectName": "build",
+        "projectPath": "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\build.proj",
+        "packagesPath": "C:\\Users\\Srdja\\.nuget\\packages\\",
+        "outputPath": "D:\\!Projects\\12Catalog_Project\\catalog-project\\Catalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Srdja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
